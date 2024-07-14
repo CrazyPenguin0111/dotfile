@@ -18,18 +18,18 @@ source $ZSH/oh-my-zsh.sh
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux
 
 
-export PATH="$PATH:home/echung/anaconda3/bin"
+export PATH="$PATH:$HOME/anaconda3/bin"
 
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 source <(fzf --zsh)
-g16root="/home/echung/Programs/Gaussian"
-GAUSS_SCRDIR="/home/echung/Programs/Gaussian/scratch"
+g16root="$HOME/Programs/Gaussian"
+GAUSS_SCRDIR="$HOME/Programs/Gaussian/scratch"
 
 export g16root GAUSS_SCRDIR
 . $g16root/g16/bsd/g16.profile
 
 
-alias gv="bash /home/echung/Programs/Gaussian/gv/gview.sh"
+alias gv="bash ~/Programs/Gaussian/gv/gview.sh"
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -38,18 +38,18 @@ setopt appendhistory
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/echung/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('$HOME/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/echung/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/echung/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "$HOME/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "$HOME/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/echung/anaconda3/bin:$PATH"
+        export PATH="$HOME/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-export HYPRSHOT_DIR="/home/echung/Pictures"
+export HYPRSHOT_DIR="$HOME/Pictures"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
