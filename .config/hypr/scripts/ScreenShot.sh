@@ -104,6 +104,16 @@ shotswappy() {
 	rm "$tmpfile"
 }
 
+shotworkspace() {
+	if hyprctl activeworkspace | grep -q "HDMI-A-1"; then
+    grim -c -o DP-2 $(xdg-user-dir PICTURES)/Screenshots/$(date +'%s_grim.png')
+	fi
+
+	if hyprctl activeworkspace | grep -q "eDP-1"; then
+		grim -c -o eDP-1 $(xdg-user-dir PICTURES)/Screenshots/$(date +'%s_grim.png')
+	fi
+}
+
 
 if [[ ! -d "$dir" ]]; then
 	mkdir -p "$dir"
@@ -123,6 +133,8 @@ elif [[ "$1" == "--active" ]]; then
 	shotactive
 elif [[ "$1" == "--swappy" ]]; then
 	shotswappy
+elif [[ "$1" == "--workspace" ]]; then
+	shotworkspace
 else
 	echo -e "Available Options : --now --in5 --in10 --win --area --active --swappy"
 fi
