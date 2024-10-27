@@ -1,7 +1,7 @@
 /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
 /* Wallpaper Effects */
 
-@import "~/.config/rofi/config.rasi" 
+@import "~/.config/rofi/master-config.rasi" 
 
 /* ---- Entry ---- */ 
 entry {
@@ -18,7 +18,7 @@ window {
 listview {
   fixed-columns: false;
   colums: 2;
-  lines: 7;
+  lines: 8;
 }
 
 /* ---- Inputbar ---- */

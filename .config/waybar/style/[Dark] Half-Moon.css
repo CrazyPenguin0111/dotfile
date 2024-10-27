@@ -1,5 +1,4 @@
 /* ----------- 💫 https://github.com/JaKooLit 💫 -------- */
-/* ....................................*/
 /* ..........Half Moon.................. */
 /* NOTE: This is only for some waybar configs */
 /* --- 👍 shared by https://github.com/TomekBobrowicz  👍 --- */
@@ -124,6 +123,7 @@ color: #F3F4F5;
 
 #custom-light_dark,
 #custom-swaync,
+#custom-hypridle,
 #idle_inhibitor,
 #clock {
 	color: #B8CC52;
@@ -131,6 +131,12 @@ color: #F3F4F5;
 	border-radius: 50px 50px;
 	margin: 5px;
 	padding: 2px 15px;
+}
+
+/*-----Indicators----*/
+#custom-hypridle.notactive,
+#idle_inhibitor.activated {
+	color: #39FF14;
 }
 
 #bluetooth {
@@ -224,6 +230,17 @@ color: #F3F4F5;
 	border-radius: 50px 50px;
 	margin: 5px;
 	padding: 2px 15px;
+}
+
+#custom-browser,
+#custom-file_manager,
+#custom-tty,
+#custom-settings {
+	border-radius: 50px 50px;
+	margin: 5px;
+	padding: 2px 15px;
+	color: #0F1419;
+    background: linear-gradient(45deg, #95E6CB, #59C2FF, #D2A6FF);
 }
 
 #custom-weather {
