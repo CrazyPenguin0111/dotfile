@@ -76,7 +76,7 @@
 
 
       "clock": {
-	  "format": " {:%I:%M %p   %a %d}",
+	  "format": " {%I:%M %p  %a %d}",
            "on-click": "~/.config/eww/scripts/toggle_control_center.sh",
       },
   

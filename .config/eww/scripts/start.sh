@@ -2,3 +2,4 @@
 pkill eww
 eww daemon
 eww open widgets
+eww open widgets1

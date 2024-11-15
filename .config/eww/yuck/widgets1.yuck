@@ -1,4 +1,4 @@
-(defwidget widgets0 []
+(defwidget widgets []
         (box :orientation "h" :space-evenly false :valign "center"
         (day)
         (month-date)

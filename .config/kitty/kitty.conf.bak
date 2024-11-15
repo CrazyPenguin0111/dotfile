@@ -4,7 +4,7 @@
 #include kitty-colors.conf 
 
 font_family Fira Code SemiBold
-font_size 12.0
+font_size 11.0
 bold_font auto
 italic_font auto
 bold_italic_font auto
@@ -21,10 +21,14 @@ wheel_scroll_min_lines 1
 enable_audio_bell no
 
 window_padding_width 10
+# selection_foreground none
+# selection_background none
+# foreground #dddddd
+# background #000000
+# cursor #dddddd
 
-selection_foreground none
-selection_background none
 
-foreground #dddddd
-background #000000
-cursor #dddddd
+# BEGIN_KITTY_THEME
+# Adapta Nokto Maia
+include current-theme.conf
+# END_KITTY_THEME
