@@ -131,7 +131,7 @@ output "HDMI-A-1" {
 layout {
     // Set gaps around windows in logical pixels.
     gaps 16
-
+    background-color "00000000"
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
     //   or right edge of the screen.
@@ -301,6 +301,10 @@ animations {
 
 window-rule {
     draw-border-with-background false
+}
+
+layer-rule {
+    place-within-backdrop true
 }
 
 window-rule {
