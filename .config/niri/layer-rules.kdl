@@ -1,0 +1,5 @@
+// Layer-shell surface placement, including panels and wallpaper.
+
+layer-rule {
+    place-within-backdrop true
+}

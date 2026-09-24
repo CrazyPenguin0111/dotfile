@@ -1,23 +1,37 @@
 import QtQuick
 import QtQuick.Effects
 import Quickshell
+import Quickshell.Io
 import qs.Commons
 import qs.Modules.Bar.Extras
 import qs.Services.UI
 import qs.Widgets
 import qs.Services.System
 
-Rectangle {
+Item {
     id: root
 
-    property real baseSize: Style.capsuleHeight
-    property bool applyUiScale: false
+    property var pluginApi: null
+    property ShellScreen screen
+    property string widgetId: ""
+    property string section: ""
+    property int sectionWidgetIndex: -1
+    property int sectionWidgetsCount: 0
+
+    // Per-screen bar properties
+    readonly property string screenName: screen?.name ?? ""
+    readonly property string barPosition: Settings.getBarPositionForScreen(screenName)
+    readonly property bool barIsVertical: barPosition === "left" || barPosition === "right"
+    readonly property real capsuleHeight: Style.getCapsuleHeightForScreen(screenName)
 
     property url currentIconSource
 
-    property string tooltipText
+    property string tooltipText: {
+        if (!pluginApi) return "";
+        return root.isRunning ? (pluginApi.tr("tooltip.running") || "Running") : (pluginApi.tr("tooltip.sleeping") || "Sleeping");
+    }
+
     property string tooltipDirection: BarService.getTooltipDirection()
-    property string density: Settings.data.bar.density
     property bool enabled: true
     property bool allowClickWhenDisabled: false
     property bool hovering: false
@@ -37,38 +51,32 @@ Rectangle {
     signal middleClicked
     signal wheel(int angleDelta)
 
-    implicitWidth: applyUiScale ? Math.round(baseSize * Style.uiScaleRatio) : Math.round(baseSize)
-    implicitHeight: applyUiScale ? Math.round(baseSize * Style.uiScaleRatio) : Math.round(baseSize)
+    readonly property real contentWidth: barIsVertical ? capsuleHeight : Math.round(capsuleHeight + Style.marginXS * 2)
+    readonly property real contentHeight: capsuleHeight
 
-    opacity: root.enabled ? Style.opacityFull : Style.opacityMedium
-    color: "transparent"
-    radius: Math.min((customRadius >= 0 ? customRadius : Style.iRadiusL), width / 2)
-    border.color: "transparent"
-    border.width: 0
+    implicitWidth: contentWidth
+    implicitHeight: contentHeight
 
-    Behavior on color {
-        ColorAnimation {
-            duration: Style.animationNormal
-            easing.type: Easing.InOutQuad
+    // --- Catwalk Specific Logic ---
+    property int frameIndex: 0
+    property int idleFrameIndex: 0
+    readonly property bool isRunning: root.pluginApi?.mainInstance?.isRunning ?? false
+    readonly property var icons: root.pluginApi?.mainInstance?.icons || []
+    readonly property var idleIcons: root.pluginApi?.mainInstance?.idleIcons || []
+    readonly property real cpuUsage: root.pluginApi?.mainInstance?.cpuUsage ?? 0
+
+    function openPanel() {
+        if (pluginApi) {
+            var result = pluginApi.openPanel(root.screen);
+            Logger.i("Catwalk", "OpenPanel result:", result);
+        } else {
+            Logger.e("Catwalk", "PluginAPI is null");
         }
     }
 
-    // --- Catwalk Specific Logic ---
-    property var pluginApi: null
-    property ShellScreen screen
-    property string widgetId: ""
-    property string section: ""
-
-    property int frameIndex: 0
-
-    readonly property bool isRunning: root.pluginApi?.mainInstance?.isRunning ?? false
-    
-    readonly property var icons: root.pluginApi?.mainInstance?.icons || []
-    
-    property int idleFrameIndex: 0
-    readonly property var idleIcons: root.pluginApi?.mainInstance?.idleIcons || []
-
-    readonly property real cpuUsage: root.pluginApi?.mainInstance?.cpuUsage ?? 0
+    function openExternalMonitor() {
+        Quickshell.execDetached(["sh", "-c", Settings.data.systemMonitor.externalMonitor]);
+    }
 
     Timer {
         interval: Math.max(30, 200 - root.cpuUsage * 1.7)
@@ -78,7 +86,7 @@ Rectangle {
             root.frameIndex = (root.frameIndex + 1) % root.icons.length
         }
     }
-    
+
     Timer {
         interval: 400
         running: !root.isRunning
@@ -94,52 +102,59 @@ Rectangle {
                            : Qt.resolvedUrl(root.idleIcons[root.idleFrameIndex % root.idleIcons.length]))
                        : ""
 
-    tooltipText: {
-        if (!pluginApi) return "No API";
-        return root.isRunning ? (pluginApi.tr("tooltip.running") || "Running") : (pluginApi.tr("tooltip.sleeping") || "Sleeping");
-    }
-    
-    Image {
-        id: iconImage
-        source: root.currentIconSource
-        anchors.centerIn: parent
-        anchors.horizontalCenterOffset: -3
-        anchors.verticalCenterOffset: -1
-        
-        width: {
-            switch (root.density) {
-            case "compact":
-                return Math.max(1, root.width * 0.85);
-            default:
-                return Math.max(1, root.width * 0.85);
+    Rectangle {
+        id: visualCapsule
+        x: Style.pixelAlignCenter(parent.width, width)
+        y: Style.pixelAlignCenter(parent.height, height)
+        width: root.contentWidth
+        height: root.contentHeight
+        opacity: root.enabled ? Style.opacityFull : Style.opacityMedium
+        color: mouseArea.containsMouse ? Color.mHover : Style.capsuleColor
+        radius: Math.min((customRadius >= 0 ? customRadius : Style.iRadiusL), width / 2)
+        border.color: Style.capsuleBorderColor
+        border.width: Style.capsuleBorderWidth
+
+        Behavior on color {
+            ColorAnimation {
+                duration: Style.animationNormal
+                easing.type: Easing.InOutQuad
             }
         }
-        height: width
-        
-        // Ensures the SVG renders sharply at any size
-        fillMode: Image.PreserveAspectFit
-        smooth: true
-        mipmap: true 
 
-        // This enables the "mask" behavior to recolor the icon
-        layer.enabled: true
-        layer.effect: MultiEffect {
-            colorization: 1.0
-            colorizationColor: Settings.data.colorSchemes.darkMode ? "white" : "black"
+        Image {
+            id: iconImage
+            source: root.currentIconSource
+            x: Style.pixelAlignCenter(parent.width, width)
+            y: Style.pixelAlignCenter(parent.height, height)
+
+            width: Style.toOdd(visualCapsule.width - Style.marginXS * 2)
+            height: width
+
+            // Render SVG at exact target size for crisp output
+            sourceSize: Qt.size(width, height)
+            fillMode: Image.PreserveAspectFit
+            smooth: true
+            mipmap: false
+
+            // This enables the "mask" behavior to recolor the icon
+            layer.enabled: true
+            layer.effect: MultiEffect {
+                colorization: 1.0
+                colorizationColor: Settings.data.colorSchemes.darkMode ? "white" : "black"
+            }
         }
     }
-    
 
     MouseArea {
-        enabled: true
+        id: mouseArea
         anchors.fill: parent
         cursorShape: root.enabled ? Qt.PointingHandCursor : Qt.ArrowCursor
         acceptedButtons: Qt.LeftButton | Qt.RightButton | Qt.MiddleButton
         hoverEnabled: true
         onEntered: {
-            root.hovering = root.enabled ? true : false;
+            root.hovering = true;
             if (root.tooltipText) {
-                TooltipService.show(parent, root.tooltipText, root.tooltipDirection);
+                TooltipService.show(root, root.tooltipText, root.tooltipDirection);
             }
             root.entered();
         }
@@ -154,25 +169,22 @@ Rectangle {
             if (root.tooltipText) {
                 TooltipService.hide();
             }
-            
+
             Logger.i("Catwalk", "Clicked! API:", !!pluginApi, "Screen:", root.screen ? root.screen.name : "null");
 
-            // Open Panel on click
-            if (pluginApi) {
-                var result = pluginApi.openPanel(root.screen);
-                Logger.i("Catwalk", "OpenPanel result:", result);
-            } else {
-                Logger.e("Catwalk", "PluginAPI is null");
-            }
-            
             if (!root.enabled && !root.allowClickWhenDisabled) {
                 return;
             }
+            // Open Panel on left/right click
+            // Open external monitor on middle click
             if (mouse.button === Qt.LeftButton) {
+                root.openPanel();
                 root.clicked();
             } else if (mouse.button === Qt.RightButton) {
+                root.openPanel();
                 root.rightClicked();
             } else if (mouse.button === Qt.MiddleButton) {
+                root.openExternalMonitor();
                 root.middleClicked();
             }
         }

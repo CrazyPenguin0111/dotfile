@@ -1,8 +1,8 @@
 {
-  "updateIntervalMinutes": 30,
+  "updateIntervalMinutes": 5,
   "updateTerminalCommand": "kitty",
   "currentIconName": "world-download",
   "hideOnZero": false,
-  "customCmdGetNumUpdates": "",
-  "customCmdDoSystemUpdate": "yay -Syu && sudo flatpak update"
+  "customCmdGetNumUpdates": "yay -Qu | wc -l ",
+  "customCmdDoSystemUpdate": "dcli update"
 }

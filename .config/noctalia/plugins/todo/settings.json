@@ -1,0 +1,88 @@
+{
+  "todos": [
+    {
+      "id": 1768584403400,
+      "text": "01-16-26 Mead Started",
+      "completed": false,
+      "createdAt": "2026-01-16T17:26:43.400Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1768584424449,
+      "text": "01-17 Add more nutrients to mead",
+      "completed": false,
+      "createdAt": "2026-01-16T17:27:04.449Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    },
+    {
+      "id": 1768584473581,
+      "text": "01-20 Add more nutrients to mead",
+      "completed": false,
+      "createdAt": "2026-01-16T17:27:53.581Z",
+      "pageId": 0,
+      "priority": "medium",
+      "details": ""
+    }
+  ],
+  "pages": [
+    {
+      "id": 0,
+      "name": "General"
+    }
+  ],
+  "current_page_id": 0,
+  "count": 3,
+  "completedCount": 0,
+  "showCompleted": true,
+  "showBackground": true,
+  "isExpanded": false,
+  "useCustomColors": false,
+  "priorityColors": {
+    "high": {
+      "r": 1,
+      "g": 0.7058823704719543,
+      "b": 0.6705882549285889,
+      "a": 1,
+      "hsvHue": 0.01786111108958721,
+      "hsvSaturation": 0.3294117748737335,
+      "hsvValue": 1,
+      "hslHue": 0.01786111108958721,
+      "hslSaturation": 1,
+      "hslLightness": 0.8352941274642944,
+      "valid": true
+    },
+    "medium": {
+      "r": 0.6274510025978088,
+      "g": 0.7882353067398071,
+      "b": 1,
+      "a": 1,
+      "hsvHue": 0.5947499871253967,
+      "hsvSaturation": 0.37254902720451355,
+      "hsvValue": 1,
+      "hslHue": 0.5947499871253967,
+      "hslSaturation": 1,
+      "hslLightness": 0.8137331008911133,
+      "valid": true
+    },
+    "low": {
+      "r": 0.7647058963775635,
+      "g": 0.7764706015586853,
+      "b": 0.8117647171020508,
+      "a": 1,
+      "hsvHue": 0.625,
+      "hsvSaturation": 0.057969022542238235,
+      "hsvValue": 0.8117647171020508,
+      "hslHue": 0.625,
+      "hslSaturation": 0.1111162006855011,
+      "hslLightness": 0.7882353067398071,
+      "valid": true
+    }
+  },
+  "exportPath": "~/Documents",
+  "exportFormat": "markdown",
+  "exportEmptySections": false
+}

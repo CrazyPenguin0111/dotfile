@@ -62,9 +62,26 @@ export HYPRSHOT_DIR="$HOME/Pictures"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias ls="lsd"
-alias ll="ls -alFh"
+alias ll="ls -tlFh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export XDG_DATA_HOME="$HOME/Programs/balenaEtcher-linux-x64:"
+
+alias clock="tty-clock -sxtc"
+
+export WEBKIT_DISABLE_DMABUF_RENDERER=1
+
+export TERM=xterm-256color
+#alias ssh="kitty +kitten ssh"
+
+export WEBKIT_DISABLE_COMPOSITING_MODE=1         
+export __EGL_VENDOR_LIBRARY_FILENAMES=/usr/share/glvnd/egl_vendor.d/50_mesa.json
+alias bambu='__EGL_VENDOR_LIBRARY_FILENAMES=/usr/share/glvnd/egl_vendor.d/50_mesa.json WEBKIT_DISABLE_DMABUF_RENDERER=1 WEBKIT_FORCE_COMPOSITING_MODE=1 WEBKIT_DISABLE_COMPOSITING_MODE=1 bambu-studio'
+
+export WINAPPS_SRC_DIR="$HOME/.local/bin/winapps-src"
+
+export PIPX_HOME=$HOME/.local/pipx
+export PATH="$HOME/.local/bin:$PATH"
+export _JAVA_AWT_WM_NONREPARENTING

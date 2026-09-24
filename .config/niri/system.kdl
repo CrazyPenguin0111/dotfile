@@ -1,0 +1,15 @@
+// Session startup, D-Bus environment, renderer/debug options, and screenshot location.
+
+debug {
+    honor-xdg-activation-with-invalid-serial
+    wait-for-frame-completion-before-queueing
+    render-drm-device "/dev/dri/renderD129"
+}
+
+spawn-sh-at-startup "dbus-update-activation-environment --all"
+
+spawn-sh-at-startup "noctalia"
+
+spawn-sh-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"

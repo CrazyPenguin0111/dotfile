@@ -1,0 +1,49 @@
+// Window appearance and application-specific behavior. Rules are kept in their original order.
+
+window-rule {
+    draw-border-with-background false
+}
+
+window-rule {
+    // Match the overlay application
+    match app-id="overlayed"
+
+    // Force the window to float on top of tiled windows
+    open-floating true
+    
+    // Do not steal focus from your game when it opens or updates
+    open-focused false
+
+    // Visual options to blend into the background
+    draw-border-with-background false
+    opacity 0.85
+    
+    // Optional: Pin it across all workspaces/infinite spaces if desired
+    // (Note: check if your specific Niri version supports 'pinned true')
+}
+
+window-rule {
+    // This regular expression is intentionally made as specific as possible,
+    // since this is the default config, and we want no false positives.
+    // You can get away with just app-id="wezterm" if you want.
+    geometry-corner-radius 12
+    clip-to-geometry true
+}
+
+window-rule {
+    // This app-id regular expression will work for both:
+    // - host Firefox (app-id is "firefox")
+    // - Flatpak Firefox (app-id is "org.mozilla.firefox")
+    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    open-floating true
+}
+
+/-window-rule {
+    match app-id=r#"^org\.keepassxc\.KeePassXC$"#
+    match app-id=r#"^org\.gnome\.World\.Secrets$"#
+
+    block-out-from "screen-capture"
+
+    // Use this instead if you want them visible on third-party screenshot tools.
+    // block-out-from "screencast"
+}
