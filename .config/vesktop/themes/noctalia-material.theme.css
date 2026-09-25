@@ -1,0 +1,140 @@
+/**
+ * @name Noctalia Material
+ * @version 3.0.6
+ * @description A fork of 'Material Discord' for Noctalia Shell
+ * @author CapnKitten
+ *
+ * @website http://github.com/CapnKitten
+ * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Material-Discord/css/source.css
+ * @donate https://paypal.me/capnkitten
+ * @invite jzJkA6Z
+ */
+
+@import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css");
+
+/* Material You addon */
+@import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/addons/material-you/source.css");
+
+
+
+
+/* MATERIAL YOU DARK THEME SETTINGS */
+.theme-dark {
+    --saturation-modifier: 0.31;
+    --lightness-modifier: 0.225;
+    --text-lightness-modifier: 1.0;
+}
+
+/* Discord's native surfaces also need the generated palette. Material's
+ * component selectors can lag behind Discord's class-name changes; without
+ * these tokens, uncovered panels fall back to Discord's selected theme.
+ * Define aliases on each theme scope so nested surfaces update as well.
+ */
+:root, :root .theme-dark, :root .theme-light {
+  --background-primary: var(--main-color) !important;
+  --background-secondary: var(--message-color) !important;
+  --background-secondary-alt: var(--main-alt) !important;
+  --background-tertiary: var(--main-alt) !important;
+  --background-floating: var(--message-color) !important;
+  --background-nested-floating: var(--message-color) !important;
+  --background-accent: var(--card-color-alt) !important;
+
+  --background-base-lowest: var(--main-alt) !important;
+  --background-base-lower: var(--main-color) !important;
+  --background-base-low: var(--message-color) !important;
+  --background-surface-high: var(--message-color) !important;
+  --background-surface-higher: var(--message-color) !important;
+  --background-surface-highest: var(--card-color-alt) !important;
+  --bg-base-primary: var(--main-color) !important;
+  --bg-base-secondary: var(--message-color) !important;
+  --bg-base-tertiary: var(--main-alt) !important;
+  --bg-surface-overlay: var(--message-color) !important;
+  --bg-surface-raised: var(--message-color) !important;
+  --chat-background-default: var(--chat-color) !important;
+  --chat-background: var(--chat-color) !important;
+  --channeltextarea-background: var(--message-color) !important;
+  --home-background: var(--main-color) !important;
+
+  --background-modifier-hover: color-mix(in srgb, #fedbd5 8%, transparent) !important;
+  --background-modifier-active: color-mix(in srgb, #fedbd5 12%, transparent) !important;
+  --background-modifier-selected: color-mix(in srgb, #fedbd5 16%, transparent) !important;
+  --background-mod-subtle: var(--background-modifier-hover) !important;
+  --background-mod-normal: var(--background-modifier-active) !important;
+  --background-mod-strong: var(--background-modifier-selected) !important;
+
+  --text-normal: #fedbd5 !important;
+  --text-primary: #fedbd5 !important;
+  --text-secondary: #e8bcb6 !important;
+  --text-muted: #e8bcb6 !important;
+  --header-primary: #fedbd5 !important;
+  --header-secondary: #e8bcb6 !important;
+  --channels-default: #e8bcb6 !important;
+}
+
+/* MATERIAL YOU LIGHT THEME SETTINGS */
+.theme-light {
+    --saturation-modifier: 0.74;
+    --lightness-modifier: 2.125;
+    --text-lightness-modifier: 1.0;
+}
+
+:root, .theme-dark, .theme-light {
+  /* See options at https://github.com/CapnKitten/Material-Discord */
+  /* Accent */
+  --accent-hue: 7;
+  --accent-saturation: 99%;
+  --accent-lightness: 83%;
+  --accent-text-color: #690001;
+
+  /* App */
+  --app-bg: #200f0c;
+  --main-color: #200f0c;
+  --main-alt: #200f0c;
+  --server-color: #200f0c;
+  --status-picker-color: #2e1b18;
+  --sidebar-panel-color: #2e1b18;
+  --chat-color: #200f0c;
+  --tooltip-color: #200f0c;
+  --tooltip-text-color: #fedbd5;
+
+  /* Message */
+  --message-color: #2e1b18;
+  --message-color-hover: hsl(
+    var(--accent-hue),
+    calc(var(--accent-saturation) * var(--saturation-modifier) * var(--saturation-factor)),
+    calc(var(--accent-lightness) * var(--lightness-modifier) * var(--ui-darkness-modifier) * 4)
+  ) !important;
+  --message-color-alt: #690001;
+  --attachment-color: #690001;
+  --main-textarea-color: #ffb4a9;
+  --main-textarea-button-color: #690001;
+  --main-textarea-color-alt: #ffb4a9;
+  --main-textarea-border: #2e1b18;
+
+  /* Card */
+  --card-color-filled: #2e1b18;
+  --card-color-hover: #c00004;
+  --card-color-active: #c00004;
+  --card-color-alt: #8f1a12;
+  --card-color-alt-hover: #ffb4a9;
+  --card-border-color: #2e1b18;
+  --card-header-text-color: #fedbd5;
+
+  /* Slider & Switch */
+  --switch-knob-color: #2e1b18;
+  --switch-slider-color: #200f0c;
+
+  /* Input */
+  --input-text-color: #fedbd5;
+
+  /* Misc */
+  --app-watermark-one: "Noctalia";
+  --app-watermark-two: "Discord";
+
+  /* Ensure channels-default is different from the active one - works in dark mode / light mode is another story... */
+  --text-tertiary: hsl(
+        var(--accent-hue),
+        calc(var(--accent-saturation) * var(--saturation-modifier) * 0.78 * var(--saturation-factor)),
+        calc(var(--accent-lightness) * var(--lightness-modifier) * var(--ui-darkness-modifier) * var(--text-lightness-modifier) * 3.0)
+    ) !important;
+}

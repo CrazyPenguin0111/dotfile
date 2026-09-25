@@ -1,0 +1,29 @@
+/**
+  * @name Creaking
+  * @author CrazyPenguin
+  * @version C.1
+  * @description A sleek and elegant theme blending deep blacks with orange hues for a stunning night-time aesthetic.
+  * @authorId 468132563714703390
+  * @authorLink https://devevil.com
+  * @website https://devevil.com
+  * @donate https://devevil.com/dnt
+  * @invite jsQ9UP7kCA
+*/
+
+@import url('https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/RosyNight/RosyNight.theme.css');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
+:root {
+  --rosynight-app-bg: ##f66c10;
+  --rosynight-bg: #181818;
+  --rosynight-bg2: #212121;
+  --rosynight-main: #f66c10;
+  --rosynight-main2: #f66c10;
+  --rosynight-message-color: #aaa0a1;
+  --watermark-filter-invert: 0%;
+  --watermark-filter-sepia: 50%;
+  --watermark-filter-saturate: 3000%;
+  --watermark-filter-hue-rotate: 210deg;
+  --watermark-filter-brightness: 30%;
+  --watermark-filter-contrast: 200%;
+}

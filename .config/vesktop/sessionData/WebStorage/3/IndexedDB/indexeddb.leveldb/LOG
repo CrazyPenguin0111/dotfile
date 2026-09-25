@@ -1,0 +1,15 @@
+2026/04/10-23:37:29.953 1ef7 Reusing MANIFEST /home/echung/.config/vesktop/sessionData/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/04/10-23:37:29.954 1ef7 Recovering log #11
+2026/04/10-23:37:29.954 1ef7 Reusing old log /home/echung/.config/vesktop/sessionData/WebStorage/3/IndexedDB/indexeddb.leveldb/000011.log 
+2026/04/10-23:38:56.517 1f23 Level-0 table #16: started
+2026/04/10-23:38:56.523 1f23 Level-0 table #16: 46415 bytes OK
+2026/04/10-23:38:56.533 1f23 Delete type=0 #11
+2026/04/10-23:38:56.533 1f23 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/04/10-23:38:56.533 1f23 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00`\x8a\xe1\xaf\xccyB\x00\x03\x00\x00\x00\x00\x00\x00<@' @ 861 : 1
+2026/04/10-23:38:56.533 1f23 Compacting 1@1 + 1@2 files
+2026/04/10-23:38:56.538 1f23 Generated table #17@1: 46 keys, 3353 bytes
+2026/04/10-23:38:56.538 1f23 Compacted 1@1 + 1@2 files => 3353 bytes
+2026/04/10-23:38:56.549 1f23 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/04/10-23:38:56.549 1f23 Delete type=2 #13
+2026/04/10-23:38:56.549 1f23 Delete type=2 #16
+2026/04/10-23:38:56.549 1f23 Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00`\x8a\xe1\xaf\xccyB\x00\x03\x00\x00\x00\x00\x00\x00<@' @ 861 : 1 .. (end); will stop at (end)

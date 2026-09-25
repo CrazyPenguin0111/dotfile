@@ -1,0 +1,4 @@
+2026/09/25-11:30:35.418 15f324 Reusing MANIFEST /home/eugene/.config/vesktop/sessionData/shared_proto_db/MANIFEST-000001
+2026/09/25-11:30:35.418 15f324 Recovering log #3
+2026/09/25-11:30:35.424 15f324 (ignoring error) /home/eugene/.config/vesktop/sessionData/shared_proto_db/000003.log: dropping 29348 bytes; Corruption: checksum mismatch
+2026/09/25-11:30:35.424 15f324 Reusing old log /home/eugene/.config/vesktop/sessionData/shared_proto_db/000003.log 

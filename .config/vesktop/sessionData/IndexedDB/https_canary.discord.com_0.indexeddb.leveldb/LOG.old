@@ -1,0 +1,7 @@
+2024/09/23-20:26:05.174 cb1 Reusing MANIFEST /home/echung/.config/vesktop/sessionData/IndexedDB/https_canary.discord.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/23-20:26:05.174 cb1 Recovering log #3
+2024/09/23-20:26:05.174 cb1 Reusing old log /home/echung/.config/vesktop/sessionData/IndexedDB/https_canary.discord.com_0.indexeddb.leveldb/000003.log 
+2024/09/23-20:35:02.568 cb3 Level-0 table #5: started
+2024/09/23-20:35:02.573 cb3 Level-0 table #5: 32996 bytes OK
+2024/09/23-20:35:02.583 cb3 Delete type=0 #3
+2024/09/23-20:35:02.583 cb3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

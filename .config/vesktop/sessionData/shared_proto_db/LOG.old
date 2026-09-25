@@ -1,0 +1,4 @@
+2026/09/10-17:41:15.332 8ae1 Reusing MANIFEST /home/echung/.config/vesktop/sessionData/shared_proto_db/MANIFEST-000001
+2026/09/10-17:41:15.332 8ae1 Recovering log #3
+2026/09/10-17:41:15.336 8ae1 (ignoring error) /home/echung/.config/vesktop/sessionData/shared_proto_db/000003.log: dropping 29296 bytes; Corruption: checksum mismatch
+2026/09/10-17:41:15.336 8ae1 Reusing old log /home/echung/.config/vesktop/sessionData/shared_proto_db/000003.log 

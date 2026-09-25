@@ -1,0 +1,6 @@
+2026/09/25-10:59:28.097 15a6e3 Reusing MANIFEST /home/eugene/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-259999
+2026/09/25-10:59:28.100 15a6e3 Recovering log #278488
+2026/09/25-10:59:28.100 15a6e3 Reusing old log /home/eugene/.config/vesktop/sessionData/Local Storage/leveldb/278488.log 
+2026/09/25-11:00:28.102 15a703 Level-0 table #278493: started
+2026/09/25-11:00:28.107 15a703 Level-0 table #278493: 15521 bytes OK
+2026/09/25-11:00:28.118 15a703 Delete type=0 #278488

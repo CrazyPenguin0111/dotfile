@@ -1,0 +1,35 @@
+# file: /opt/spotify
+# owner: nobody
+# group: nobody
+user::rwx
+group::r-x
+other::r-x
+
+# file: /opt/spotify/Apps
+# owner: nobody
+# group: nobody
+user::rwx
+group::r-x
+other::r-x
+
+# file: /opt/spotify/Apps/login.spa
+# owner: nobody
+# group: nobody
+user::rw-
+group::r--
+other::r--
+
+# file: /opt/spotify/Apps/native-licenses.html
+# owner: nobody
+# group: nobody
+user::rw-
+group::r--
+other::r--
+
+# file: /opt/spotify/Apps/xpui.spa
+# owner: nobody
+# group: nobody
+user::rw-
+group::r--
+other::r--
+

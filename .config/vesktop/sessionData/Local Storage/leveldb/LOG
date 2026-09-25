@@ -1,0 +1,21 @@
+2026/09/25-11:23:33.637 15f324 Reusing MANIFEST /home/eugene/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-259999
+2026/09/25-11:23:33.639 15f324 Recovering log #278492
+2026/09/25-11:23:33.639 15f324 Reusing old log /home/eugene/.config/vesktop/sessionData/Local Storage/leveldb/278492.log 
+2026/09/25-11:26:33.694 15f34f Level-0 table #278496: started
+2026/09/25-11:26:33.744 15f34f Level-0 table #278496: 136156 bytes OK
+2026/09/25-11:26:33.759 15f34f Delete type=0 #278492
+2026/09/25-11:27:33.694 15f324 Level-0 table #278498: started
+2026/09/25-11:27:33.704 15f324 Level-0 table #278498: 80414 bytes OK
+2026/09/25-11:27:33.716 15f324 Delete type=0 #278495
+2026/09/25-11:35:01.554 15f34f Level-0 table #278500: started
+2026/09/25-11:35:01.604 15f34f Level-0 table #278500: 36273 bytes OK
+2026/09/25-11:35:01.614 15f34f Delete type=0 #278497
+2026/09/25-11:35:01.614 15f34f Compacting 4@0 + 1@1 files
+2026/09/25-11:35:01.623 15f34f Generated table #278501@0: 366 keys, 311055 bytes
+2026/09/25-11:35:01.623 15f34f Compacted 4@0 + 1@1 files => 311055 bytes
+2026/09/25-11:35:01.633 15f34f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/25-11:35:01.633 15f34f Delete type=2 #278490
+2026/09/25-11:35:01.633 15f34f Delete type=2 #278493
+2026/09/25-11:35:01.633 15f34f Delete type=2 #278496
+2026/09/25-11:35:01.633 15f34f Delete type=2 #278498
+2026/09/25-11:35:01.633 15f34f Delete type=2 #278500
