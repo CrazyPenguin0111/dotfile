@@ -1,0 +1,266 @@
+config_version = 14
+
+[bar.default]
+border_width = 2.5
+center = [ "clock", "workspaces" ]
+concave_edge_corners = false
+end = [
+    "media",
+    "tray",
+    "notifications",
+    "clipboard",
+    "network",
+    "bluetooth",
+    "volume",
+    "brightness",
+    "cat",
+    "control-center",
+    "session"
+]
+font_family = "Adwaita Sans"
+margin_edge = 8
+margin_ends = 10
+radius = 23
+start = [
+    "launcher",
+    "wallpaper",
+    "activity",
+    "weather",
+    "bar_2",
+    "widget",
+    "airpods",
+    "bar",
+    "keybinds",
+    "bar_3",
+    "clipboard"
+]
+
+[calendar]
+enabled = true
+
+[desktop_widgets]
+schema_version = 2
+widget_order = [ "desktop-widget-0000000000000002", "desktop-widget-0000000000000003" ]
+
+    [desktop_widgets.grid]
+    cell_size = 32
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000002]
+    box_height = 96.0
+    box_width = 288.0
+    cx = 960.0
+    cy = 652.0
+    output = "HDMI-A-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "weather"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000002.settings]
+        background = false
+        color = "tertiary"
+        font_family = ""
+        show_forecast = false
+
+    [desktop_widgets.widget.desktop-widget-0000000000000003]
+    box_height = 320.0
+    box_width = 448.0
+    cx = 960.0
+    cy = 444.0
+    output = "HDMI-A-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "clock"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000003.settings]
+        background = false
+        clock_style = "digital"
+        color = "tertiary"
+        font_family = "Adwaita Sans"
+        format = "{:%I:%M}"
+
+[dock]
+auto_hide = true
+background_opacity = 0.71999998390674591
+border = "primary"
+border_width = 1.0
+concave_edge_corners = false
+enabled = true
+launcher_position = "start"
+main_axis_padding = 8
+margin_edge = 13
+margin_ends = 69
+pinned = [ "zen", "discord", "kitty" ]
+radius = 32
+reserve_space = false
+show_dots = true
+
+[hot_corners.top_left]
+action = "window_switcher"
+
+[location]
+auto_locate = true
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@HDMI-A-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 960.0
+    cy = 898.0
+    output = "HDMI-A-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[plugin_settings."raycursive/discord-voice"]
+discord_binary = "/home/eugene/.local/bin/vesktop"
+
+[plugin_settings."yugaaank/better-clock"]
+time_format = "{:%I:%M}"
+
+[plugins]
+enabled = [
+    "felipeartur/ai-usagebar",
+    "harveywuk/airpods",
+    "yuuto/arch-updater",
+    "yugaaank/better-clock",
+    "yuuto/calculator",
+    "dotnetrob/cat",
+    "icefish/phone-connect",
+    "vn1k/cursor",
+    "raycursive/discord-voice",
+    "alexmnrs/github-activity",
+    "kenn/keybind-cheatsheet",
+    "yuki/lunar-workspaces",
+    "imjustdoingmypart/niri-animations"
+]
+
+[shell]
+app_icon_color = "tertiary"
+app_icon_colorize = true
+corner_radius_scale = 2.0
+font_family = "Adwaita Sans"
+niri_overview_type_to_launch_enabled = true
+polkit_agent = true
+time_format = "{:%l:%M}"
+
+    [shell.launcher]
+    app_grid = true
+
+    [shell.panel]
+    floating_offset = 10
+    transparency_mode = "glass"
+    wallpaper_placement = "floating"
+    wallpaper_position = "center"
+
+    [shell.screen_corners]
+    enabled = true
+
+[theme]
+custom_palette = "minecraft-mc"
+source = "wallpaper"
+
+    [theme.templates]
+    builtin_ids = [
+        "alacritty",
+        "btop",
+        "cava",
+        "foot",
+        "gtk3",
+        "gtk4",
+        "ghostty",
+        "kcolorscheme",
+        "kitty",
+        "niri",
+        "qt",
+        "scroll",
+        "sway"
+    ]
+    community_ids = [
+        "codex",
+        "spicetify",
+        "zen-browser",
+        "discord",
+        "neovim",
+        "vscode",
+        "steam",
+        "fuzzel",
+        "fastfetch",
+        "obs",
+        "fzf",
+        "yazi"
+    ]
+
+[wallpaper]
+directory = "/home/eugene/Pictures/wallpapers"
+
+    [wallpaper.default]
+    path = "/home/eugene/Pictures/wallpapers/japan-artistic-3840x2160-25406.jpg"
+
+    [wallpaper.last]
+    path = "/home/eugene/Pictures/wallpapers/japan-artistic-3840x2160-25406.jpg"
+
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/eugene/Pictures/wallpapers/japan-artistic-3840x2160-25406.jpg"
+
+[weather]
+unit = "imperial"
+
+[widget.activity]
+type = "alexmnrs/github-activity:activity"
+
+[widget.airpods]
+type = "harveywuk/airpods:airpods"
+
+[widget.bar]
+type = "felipeartur/ai-usagebar:bar"
+
+[widget.bar_2]
+type = "yuuto/calculator:bar"
+
+[widget.bar_3]
+type = "raycursive/discord-voice:bar"
+
+[widget.cat]
+type = "dotnetrob/cat:cat"
+
+[widget.clock]
+format = "{:%l:%M}"
+
+[widget.keybinds]
+type = "kenn/keybind-cheatsheet:keybinds"
+
+[widget.media]
+hide_when_no_media = true
+
+[widget.widget]
+type = "yuuto/arch-updater:widget"

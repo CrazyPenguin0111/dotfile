@@ -1,0 +1,22 @@
+{
+  "Applications": [
+    "/usr/share/applications/zen.desktop",
+    "/var/lib/flatpak/exports/share/applications/com.sindresorhus.Caprine.desktop",
+    "/home/eugene/.local/share/applications/vesktop.desktop",
+    "/usr/share/applications/io.github.ilya_zlobintsev.LACT.desktop",
+    "/usr/share/applications/jetbrains-rider.desktop",
+    "/usr/share/applications/spotify.desktop",
+    "/usr/share/applications/steam.desktop",
+    "/usr/share/applications/discord.desktop",
+    "/usr/share/applications/com.rtosta.zapzap.desktop",
+    "/usr/share/applications/vesktop.desktop",
+    "/usr/share/applications/teams-for-linux.desktop",
+    "/usr/share/applications/nwg-look.desktop",
+    "/usr/share/applications/codex-desktop.desktop",
+    "/usr/share/applications/org.gnome.Nautilus.desktop",
+    "/usr/share/applications/filezilla.desktop",
+    "/usr/share/applications/com.rtosta.zapzap.nogpu.desktop",
+    "/var/lib/flatpak/exports/share/applications/com.spotify.Client.desktop",
+    "/usr/share/applications/BambuStudio.desktop"
+  ]
+}

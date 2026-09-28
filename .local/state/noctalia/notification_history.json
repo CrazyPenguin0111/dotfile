@@ -1,0 +1,1664 @@
+{
+  "change_serial": 138,
+  "entries": [
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 2,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790292244255,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 5,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790292238255,
+        "summary": "Fixed the three bindings in [your Niri config](/home/eugene/.config/niri/config.kdl:387). They used unsupported `noctalia action ...` commands. Noctalia v5.1 uses [`noctalia msg ...`](https://docs....",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 4,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790292874392,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 6,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790292868392,
+        "summary": "Your `dotfiles` alias correctly uses `~/.dotfiles` with your home directory as its working tree. Niri, Noctalia, and Kitty configs were already tracked. I staged: - `.config/environment.d/niri.conf...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 6,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790294287203,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 8,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790294281203,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'curl -fL ...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 8,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790294410317,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 9,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790294404317,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'spicetify...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 10,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790294799268,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 10,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790294793268,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'rsync -a ...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 12,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790295305663,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 12,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790295299663,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'ln -s ../...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 14,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790295425512,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 13,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790295419512,
+        "summary": "I fixed a directory mismatch in my setup: Millennium couldn’t find Material-Theme and reverted to Steam’s default. The theme is now linked correctly and selected with Noctalia’s colors. Fully exit ...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 16,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790295573166,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 16,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790295567166,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'busctl --...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 18,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790295672215,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 17,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790295666215,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'busctl --...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 20,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790295685228,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 18,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790295679228,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'busctl --...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 22,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790295767253,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 20,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790295761253,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'busctl --...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 24,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790295866180,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 21,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790295860180,
+        "summary": "Approval requested: /usr/bin/zsh -lc \"python3 -...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "closed_by_call",
+      "event_serial": 27,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "discord",
+        "body": "idk",
+        "category": null,
+        "desktop_entry": "discord",
+        "expiry_wall_ms": 1790295927700,
+        "icon": null,
+        "id": 22,
+        "image_data": {
+          "bits_per_sample": 8,
+          "channels": 4,
+          "has_alpha": true,
+          "height": 96,
+          "image_file": "i_ff90bff389b58f7401ea3d49563d715d.webp",
+          "row_stride": 384,
+          "width": 96
+        },
+        "origin": "external",
+        "received_wall_ms": 1790295921700,
+        "summary": "GHXX",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "closed_by_call",
+      "event_serial": 30,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "discord",
+        "body": "i mean",
+        "category": null,
+        "desktop_entry": "discord",
+        "expiry_wall_ms": 1790295934475,
+        "icon": null,
+        "id": 23,
+        "image_data": {
+          "bits_per_sample": 8,
+          "channels": 4,
+          "has_alpha": true,
+          "height": 96,
+          "image_file": "i_ff90bff389b58f7401ea3d49563d715d.webp",
+          "row_stride": 384,
+          "width": 96
+        },
+        "origin": "external",
+        "received_wall_ms": 1790295928475,
+        "summary": "GHXX",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "closed_by_call",
+      "event_serial": 33,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "discord",
+        "body": "it looks nice that it matches but isnt that like way too much work",
+        "category": null,
+        "desktop_entry": "discord",
+        "expiry_wall_ms": 1790295943205,
+        "icon": null,
+        "id": 24,
+        "image_data": {
+          "bits_per_sample": 8,
+          "channels": 4,
+          "has_alpha": true,
+          "height": 96,
+          "image_file": "i_ff90bff389b58f7401ea3d49563d715d.webp",
+          "row_stride": 384,
+          "width": 96
+        },
+        "origin": "external",
+        "received_wall_ms": 1790295937205,
+        "summary": "GHXX",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 35,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790296032826,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 25,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790296026826,
+        "summary": "Approval requested: /usr/bin/zsh -lc \"python3 -...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 37,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790296066580,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 26,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790296060580,
+        "summary": "Fixed. Steam’s tray libraries had broken links pointing to `/home/echung` instead of `/home/eugene`. I backed them up, regenerated them, and restarted Steam using [Valve’s suggested repair](https:/...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 39,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790296156067,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 27,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790296150067,
+        "summary": "Question: The Discord template includ...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 41,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790296348317,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 28,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790296342317,
+        "summary": "Approval requested: /usr/bin/zsh -lc /home/euge...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 43,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790296373236,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 29,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790296367236,
+        "summary": "Installed and opened **Vesktop**, with **Noctalia Material** enabled. Use Vesktop from your app launcher for themed Discord. **Zen Browser** is already configured correctly—restart it to load the t...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "closed_by_call",
+      "event_serial": 48,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "vesktop",
+        "body": "Cool",
+        "category": null,
+        "desktop_entry": "vesktop",
+        "expiry_wall_ms": 1790296874962,
+        "icon": null,
+        "id": 37,
+        "image_data": {
+          "bits_per_sample": 8,
+          "channels": 4,
+          "has_alpha": true,
+          "height": 96,
+          "image_file": "i_62394526a94ddaff598021fb8f08ad6c.webp",
+          "row_stride": 384,
+          "width": 96
+        },
+        "origin": "external",
+        "received_wall_ms": 1790296868962,
+        "summary": "Voidweaver",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 47,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "discord",
+        "body": "Cool",
+        "category": null,
+        "desktop_entry": "discord",
+        "expiry_wall_ms": 1790296875040,
+        "icon": null,
+        "id": 38,
+        "image_data": {
+          "bits_per_sample": 8,
+          "channels": 4,
+          "has_alpha": true,
+          "height": 96,
+          "image_file": "i_62394526a94ddaff598021fb8f08ad6c.webp",
+          "row_stride": 384,
+          "width": 96
+        },
+        "origin": "external",
+        "received_wall_ms": 1790296869040,
+        "summary": "Voidweaver",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 50,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790346297916,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 39,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790346291916,
+        "summary": "Fixed the cause: your bookmarks folder pointed to the nonexistent `/home/echung` directory, preventing Nautilus from saving changes. I repaired the link, updated saved bookmarks to `/home/eugene`, ...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 52,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790346567893,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 40,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790346561893,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'noctalia ...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "closed_by_call",
+      "event_serial": 55,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "vesktop",
+        "body": "Very neat, looking clean",
+        "category": null,
+        "desktop_entry": "vesktop",
+        "expiry_wall_ms": 1790347823849,
+        "icon": null,
+        "id": 41,
+        "image_data": {
+          "bits_per_sample": 8,
+          "channels": 4,
+          "has_alpha": true,
+          "height": 96,
+          "image_file": "i_93cc0497c363e799aa08043e78195dcd.webp",
+          "row_stride": 384,
+          "width": 96
+        },
+        "origin": "external",
+        "received_wall_ms": 1790347817849,
+        "summary": "narik",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 57,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "Slack",
+        "body": "Marco Maria Paci: HAPPENING TODAY!!! @channel",
+        "category": null,
+        "desktop_entry": "slack",
+        "expiry_wall_ms": 1790348093600,
+        "icon": null,
+        "id": 42,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790348087600,
+        "summary": "[nucleate-community] in #04_events",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 59,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790348351443,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 44,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790348345443,
+        "summary": "Question: I’ve applied the updated te...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 61,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790348408582,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 45,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790348402582,
+        "summary": "Approval requested: /usr/bin/zsh -lc \"niri msg ...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 63,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790348770582,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 46,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790348764582,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'node --ex...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 65,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790349712264,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 47,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790349706264,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'node /tmp...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 67,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790349813133,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 48,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790349807133,
+        "summary": "Approval requested: /usr/bin/zsh -lc 'node /tmp...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 69,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790349867556,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 49,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790349861556,
+        "summary": "Approval requested: /usr/bin/zsh -lc \"python3 -...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "closed_by_call",
+      "event_serial": 71,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "teams-for-linux",
+        "body": "Plewase adjust the title. Uncover the glycosylation reaction is really vague. effect of ion pairs? Understand stereolectronic effects?",
+        "category": null,
+        "desktop_entry": "teams-for-linux",
+        "expiry_wall_ms": 1790351332200,
+        "icon": null,
+        "id": 55,
+        "image_data": {
+          "bits_per_sample": 8,
+          "channels": 4,
+          "has_alpha": true,
+          "height": 64,
+          "image_file": "i_f1ec3b14a7581b2865394ad6abaaf221.webp",
+          "row_stride": 256,
+          "width": 64
+        },
+        "origin": "external",
+        "received_wall_ms": 1790351326200,
+        "summary": "Mateusz Marianski",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "closed_by_call",
+      "event_serial": 73,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "teams-for-linux",
+        "body": "The rest is fine.",
+        "category": null,
+        "desktop_entry": "teams-for-linux",
+        "expiry_wall_ms": 1790351339896,
+        "icon": null,
+        "id": 56,
+        "image_data": {
+          "bits_per_sample": 8,
+          "channels": 4,
+          "has_alpha": true,
+          "height": 64,
+          "image_file": "i_f1ec3b14a7581b2865394ad6abaaf221.webp",
+          "row_stride": 256,
+          "width": 64
+        },
+        "origin": "external",
+        "received_wall_ms": 1790351333896,
+        "summary": "Mateusz Marianski",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "closed_by_call",
+      "event_serial": 75,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "teams-for-linux",
+        "body": "What title do you want to use?",
+        "category": null,
+        "desktop_entry": "teams-for-linux",
+        "expiry_wall_ms": 1790352332766,
+        "icon": null,
+        "id": 57,
+        "image_data": {
+          "bits_per_sample": 8,
+          "channels": 4,
+          "has_alpha": true,
+          "height": 64,
+          "image_file": "i_f1ec3b14a7581b2865394ad6abaaf221.webp",
+          "row_stride": 256,
+          "width": 64
+        },
+        "origin": "external",
+        "received_wall_ms": 1790352326766,
+        "summary": "Mateusz Marianski",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "closed_by_call",
+      "event_serial": 77,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "teams-for-linux",
+        "body": "Sounds good. Please submit.",
+        "category": null,
+        "desktop_entry": "teams-for-linux",
+        "expiry_wall_ms": 1790352726479,
+        "icon": null,
+        "id": 58,
+        "image_data": {
+          "bits_per_sample": 8,
+          "channels": 4,
+          "has_alpha": true,
+          "height": 64,
+          "image_file": "i_f1ec3b14a7581b2865394ad6abaaf221.webp",
+          "row_stride": 256,
+          "width": 64
+        },
+        "origin": "external",
+        "received_wall_ms": 1790352720479,
+        "summary": "Mateusz Marianski",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "dismissed",
+      "event_serial": 79,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790355563820,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 60,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790355557820,
+        "summary": "As of **1 PM Eastern**, the study is running normally with no recorded failures. - **46,950 / 60,000 games completed (78%)** - **9 of 12 runs finished** - Current: larger replay + shuffled batches,...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 81,
+      "notification": {
+        "actions": [
+          "default",
+          "Action"
+        ],
+        "app_name": "kitty",
+        "body": "",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790355673670,
+        "icon": "/usr/lib/kitty/logo/kitty.png",
+        "id": 61,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790355667670,
+        "summary": "**So far, the original training settings are performing best.** The broader arena also shows later saved checkpoints outperforming epoch 1000. Each saved checkpoint played the same 400 games across...",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 83,
+      "notification": {
+        "actions": [],
+        "app_name": "ai-usagebar",
+        "body": "98% of the Codex 5h used · resets 2h 11m (15:17)",
+        "category": "quota",
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790355975966,
+        "icon": null,
+        "id": 62,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790355969966,
+        "summary": "Codex — Codex 5h at 98%",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": true
+    },
+    {
+      "active": false,
+      "close_reason": "closed_by_call",
+      "event_serial": 86,
+      "notification": {
+        "actions": [
+          "default",
+          "View"
+        ],
+        "app_name": "discord",
+        "body": "xd",
+        "category": null,
+        "desktop_entry": "discord",
+        "expiry_wall_ms": 1790380274041,
+        "icon": null,
+        "id": 72,
+        "image_data": {
+          "bits_per_sample": 8,
+          "channels": 4,
+          "has_alpha": true,
+          "height": 96,
+          "image_file": "i_112882731615746bbe2ba5e1871cfb19.webp",
+          "row_stride": 384,
+          "width": 96
+        },
+        "origin": "external",
+        "received_wall_ms": 1790380268041,
+        "summary": "GHXX",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 88,
+      "notification": {
+        "actions": [],
+        "app_name": "CachyOS Update",
+        "body": "Reboot is recommended due to the upgrade of core system package(s).",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790380979529,
+        "icon": "system-reboot",
+        "id": 73,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790380969529,
+        "summary": "Reboot recommended!",
+        "timeout": 10000,
+        "urgency": "critical"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 90,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790432404632,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 77,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790432398632,
+        "summary": "Codex needs your input",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 92,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790432526127,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 78,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790432520127,
+        "summary": "Codex needs your input",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 94,
+      "notification": {
+        "actions": [],
+        "app_name": "ai-usagebar",
+        "body": "100% of the Codex weekly used · resets 3d 13h (23:25)",
+        "category": "quota",
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790432544641,
+        "icon": null,
+        "id": 79,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790432538641,
+        "summary": "Codex — Codex weekly at 100%",
+        "timeout": 6000,
+        "urgency": "critical"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 96,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790432605909,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 80,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790432599909,
+        "summary": "Codex needs your input",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 98,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790432947389,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 81,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790432941389,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 100,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790433404397,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 82,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790433398397,
+        "summary": "Codex needs your input",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 102,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790433746612,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 83,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790433740612,
+        "summary": "Codex needs your input",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 104,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790434777170,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 84,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790434771170,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 106,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790435104849,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 85,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790435098849,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 108,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790436127362,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 86,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790436121362,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 110,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790437792080,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 88,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790437786080,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 112,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790438548283,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 89,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790438542283,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 114,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790440853719,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 92,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790440847719,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 116,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790442736364,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 93,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790442730364,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 118,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790447466875,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 94,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790447460875,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 120,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790448927419,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 95,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790448921419,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 122,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790449593567,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 96,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790449587567,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 124,
+      "notification": {
+        "actions": [],
+        "app_name": "Rider",
+        "body": "This is the rules for the game. Its played on a 19x19 board…",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790450596689,
+        "icon": "/opt/rider/bin/rider.svg",
+        "id": 97,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790450590689,
+        "summary": "Codex finished",
+        "timeout": 6000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 126,
+      "notification": {
+        "actions": [],
+        "app_name": "ai-usagebar",
+        "body": "100% of the Codex weekly used · resets 6d 21h (13:12)",
+        "category": "quota",
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790450687343,
+        "icon": null,
+        "id": 98,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790450681343,
+        "summary": "Codex — Codex weekly at 100%",
+        "timeout": 6000,
+        "urgency": "critical"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 128,
+      "notification": {
+        "actions": [],
+        "app_name": "ai-usagebar",
+        "body": "100% of the Codex weekly used · resets 6d 13h (13:12)",
+        "category": "quota",
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790479489243,
+        "icon": null,
+        "id": 100,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790479483243,
+        "summary": "Codex — Codex weekly at 100%",
+        "timeout": 6000,
+        "urgency": "critical"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 130,
+      "notification": {
+        "actions": [],
+        "app_name": "Sunshine",
+        "body": "Click here to complete the pairing process",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790525326879,
+        "icon": null,
+        "id": 101,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790525316879,
+        "summary": "Incoming Pairing Request",
+        "timeout": 10000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 132,
+      "notification": {
+        "actions": [],
+        "app_name": "Sunshine",
+        "body": "Click here to complete the pairing process",
+        "category": null,
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790525707115,
+        "icon": null,
+        "id": 102,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790525697115,
+        "summary": "Incoming Pairing Request",
+        "timeout": 10000,
+        "urgency": "normal"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 134,
+      "notification": {
+        "actions": [],
+        "app_name": "ai-usagebar",
+        "body": "100% of the Codex weekly used · resets 5d 3h (13:12)",
+        "category": "quota",
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790602489930,
+        "icon": null,
+        "id": 118,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790602483930,
+        "summary": "Codex — Codex weekly at 100%",
+        "timeout": 6000,
+        "urgency": "critical"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 136,
+      "notification": {
+        "actions": [],
+        "app_name": "ai-usagebar",
+        "body": "100% of the Codex weekly used · resets 5d 2h (13:12)",
+        "category": "quota",
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790606092179,
+        "icon": null,
+        "id": 119,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790606086179,
+        "summary": "Codex — Codex weekly at 100%",
+        "timeout": 6000,
+        "urgency": "critical"
+      },
+      "seen": false
+    },
+    {
+      "active": false,
+      "close_reason": "expired",
+      "event_serial": 138,
+      "notification": {
+        "actions": [],
+        "app_name": "ai-usagebar",
+        "body": "100% of the Codex weekly used · resets 5d 2h (13:12)",
+        "category": "quota",
+        "desktop_entry": null,
+        "expiry_wall_ms": 1790607894214,
+        "icon": null,
+        "id": 120,
+        "image_data": null,
+        "origin": "external",
+        "received_wall_ms": 1790607888214,
+        "summary": "Codex — Codex weekly at 100%",
+        "timeout": 6000,
+        "urgency": "critical"
+      },
+      "seen": false
+    }
+  ],
+  "next_id": 121,
+  "version": 2
+}

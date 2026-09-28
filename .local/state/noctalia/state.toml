@@ -1,0 +1,5 @@
+[security_migrations]
+calendar_credentials_v1 = true
+
+[theme_templates]
+applied_builtin_ids = "alacritty btop cava foot ghostty gtk3 gtk4 kcolorscheme kitty niri qt scroll sway"
